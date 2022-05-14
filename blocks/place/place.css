@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 460px 484px;
-    grid-template-rows: repeat(2, minmax(min-content, max-content));;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
     justify-content: center;
     gap: 48px 40px;
     color: #FFF;
