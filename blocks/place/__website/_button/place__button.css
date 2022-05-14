@@ -1,4 +1,4 @@
-.place__website_button{
+.place__button{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -9,6 +9,6 @@
     transition: 0.8s;
 }
 
-.place__website_button:hover{
+.place__button:hover{
     opacity: 0.3;
 }

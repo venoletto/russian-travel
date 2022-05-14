@@ -23,8 +23,8 @@
 @import url(../blocks/place/__paragraph-cell/place__paragraph-cell.css);
 @import url(../blocks/place/__paragraph/place__paragragh.css);
 @import url(../blocks/place/__website/website.css);
-@import url(../blocks/place/__website/_url-text/place__website_url-text.css);
-@import url(../blocks/place/__website/_button/place__website_button.css);
+@import url(../blocks/place/__website/_url-text/place__url-text.css);
+@import url(../blocks/place/__website/_button/place__button.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__background/cover__background.css);
