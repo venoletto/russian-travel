@@ -1,0 +1,14 @@
+.place__website_button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    transition: 0.8s;
+}
+
+.place__website_button:hover{
+    opacity: 0.3;
+}
