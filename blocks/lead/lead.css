@@ -1,4 +1,5 @@
 .lead {
+    font-family: 'Inter', "Helvetica Neue", "Arial", sans-serif;
     max-width: 984px;
     margin: 0 auto 0 auto;
     padding: 0;
@@ -11,12 +12,6 @@
 }
 
 @media (max-width:768px){
-    .lead {
-      width: 100%;
-    }
-}
-
-@media (max-width:320px){
     .lead {
       width: 100%;
     }

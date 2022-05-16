@@ -8,8 +8,8 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
+    padding-right: 10px;
 }
-
 
 @media (max-width:1023px){
     .place__title{

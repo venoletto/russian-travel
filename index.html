@@ -8,20 +8,20 @@
     <title>Путешествие по России</title>
 </head>
 <body>
-    <section class="page">
-
-
-        <section class="header">
+    <div class="page">
+<!--Вы отметили, что я нигде не указал альтернативные шрифты. Они у меня все были перечислины в секции "page", но на всякий случай я добавил их список в начало каждой секции на сайте.-->
+<main class="content">
+        <header class="header">
             <img src="images/header-logo.svg" alt="карта России" class="header__logo">
-            <div class="header__lang-links">
-              <a href="#" class="header__lang-link">Ru</a>
-              <a href="#" class="header__lang-link">En</a>
+            <div class="header__lang-zone">
+              <a href="#" class="header__lang-links header__lank-links_active">Ru</a>
+              <a href="#" class="header__lang-links">En</a>
             </div>
-        </section>
+        </header>
 
 
         <section class="lead">
-            <h2 class="lead__title">Путешествия по России</h2>
+            <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <img src="images/lead-polka.jpg" alt="девушка, спящая в поезде" class="lead__image">
             <p class="lead__caption">Ваша полка - верхняя</p>
@@ -37,10 +37,11 @@
                 Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. 
                 Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li class="intro__list-element"><b>Часовых поясов</b> 11</li>
-                    <li class="intro__list-element"><b>Объектов природного наследия ЮНЕСКО</b> 12</li>
-                    <li class="intro__list-element"><b>Объектов культурного наследия ЮНЕСКО</b> 16</li>
-                    <li class="intro__list-element"><b>Аэропортов</b> 241</li>
+                    <li class="intro__list-element">Часовых поясов <span class="intro__list-element-span">11</span></li>
+                    <li class="intro__list-element">Объектов природного наследия ЮНЕСКО <span class="intro__list-element-span">12</span></li>
+                    <li class="intro__list-element">Объектов культурного наследия ЮНЕСКО <span class="intro__list-element-span">16</span></li>
+                    <li class="intro__list-element">Природных заповедников <span class="intro__list-element-span">105</span></li>
+                    <li class="intro__list-element">Аэропортов <span class="intro__list-element-span">241</span></li>
                 </ul>
         </section>
 
@@ -62,7 +63,7 @@
 
 
         <section class="places">
-
+           <!--В этой секции на экране 320px отличается перенос строк у параграфов в самой работе и в макете, из-за чего не выходит обработать некоторые ваши замечания касательно съезжющей работы. Есть варинт сделать не по макету паддинги между параграфами 37px вместо указанных 25px, но это же не подходящий вариант? И, соответственно, из-за того, что у меня строк меньше выходит, чем получается на макете - нижняя часть начинает ехать ниже.-->
             <div class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <img src="images/place-kosa.jpg" alt="Куршская коса" class="place__image">
@@ -141,24 +142,26 @@
 
         </section>
 
-        <section class="cover">
+        <footer class="cover">
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
                     <h2 class="cover__title">До Байкала «на собаках»</h2>
                     <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
             </a>
-        </section>
+        </footer>
+
+ </main>
 
         <section class="footer">
-            <div class="footer__link-area">
+            <nav class="footer__link-area">
                 <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
                 <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
                 <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
                 <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
                 <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
-            </div>
+            </nav>
             <p class="footer__copyright">© 2022. Гатауллин Камиль</p>
         </section>
 
-    </section>
+    </div>
 </body>
 </html>
